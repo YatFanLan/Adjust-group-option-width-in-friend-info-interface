@@ -1,16 +1,13 @@
 /* ==UserStyle==
 @name           调整好友界面的分组选项宽度
 @description    调整好友界面的分组选项宽度
-@version        0.1.0
+@version        0.1.1
 @homepageURL    https://github.com/YatFanLan/Adjust-group-option-width-in-friend-info-interface
 @author         YatFanLan
-@var number widthAdjustment "调整下拉框的选项宽度" [ 122]
-@var number margin-leftAdjustment "挪动选项位置" [ -22]
+@license        gpl-3.0
 ==/UserStyle== */
-
--pulldown-menu-button{
-	width:130px;   /*调整下拉框宽度*/
-	margin-left: -22px;   /*挪动选项位置*/
  
+ .title-bar__item >.q-pulldown-menu.small-size.lite-tools-vue-component.vue-component>.q-pulldown-menu-button {
+	margin-left:-40px;/*调整选择框的位置*/
+  	width:140px;   /*调整下拉框宽度*/
 }
- 
