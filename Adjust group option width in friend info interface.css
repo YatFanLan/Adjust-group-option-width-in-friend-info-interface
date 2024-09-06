@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Adjust group option width in friend info interface
+@description    调整好友界面的分组选项宽度
+@version        0.1.0
+@homepageURL    https://github.com/yourusername/your-repo
+@author         Your Name
+@license        gpl-3.0
+@var number widthAdjustment "调整下拉框的选项宽度" [ 122]
+@var number margin-leftAdjustment "挪动选项位置" [ -22]
+==/UserStyle== */
+
+-pulldown-menu-button{
+	width:130px;   /*调整下拉框宽度*/
+	margin-left: -22px;   /*挪动选项位置*/
+ 
+}
+ 
