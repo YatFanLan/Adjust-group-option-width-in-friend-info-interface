@@ -9,6 +9,6 @@
 ==/UserStyle== */
  
  .title-bar__item >.q-pulldown-menu.small-size.lite-tools-vue-component.vue-component>.q-pulldown-menu-button {
-	margin-left:-40px;/*调整选择框的位置*/
+	margin-left:-35.5px;/*调整选择框的位置*/
   	width:140px;   /*调整下拉框宽度*/
 }
